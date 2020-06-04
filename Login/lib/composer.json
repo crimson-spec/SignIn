@@ -1,0 +1,14 @@
+{
+    "name": "mathe/lib",
+    "require": {
+        "bjeavons/zxcvbn-php":"^0.4",
+        "phpmailer/phpmailer": "^6.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Classes\\": "../classes/",
+            "Models\\": "../models/",
+            "Traits\\": "../traits/"
+        }
+    }
+}

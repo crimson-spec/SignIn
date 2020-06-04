@@ -1,0 +1,188 @@
+/*
+ * CSS GLOBAL
+ */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+a{
+    text-decoration: none;
+    color: #333;
+}
+
+
+
+/*
+ * CLASSES AUXILIARES
+ */
+
+.float{float: left;}
+.w100{width: 100%;}
+.h100{height: 40px;}
+.center{text-align: center;}
+
+/*
+ * CONFIGURAÇÕES GERAIS
+ */
+
+ input[type='email'] , input[type='password'] , input[type='text']{
+    margin: 15px 0;
+    border: 1px solid #bbb;
+    border-radius: 2px;
+    font-size: 16px;
+    padding: 0 10px;
+}
+
+input[type='submit']{
+    width: 30%;
+    background: greenyellow;
+    font-weight: bold;
+    color: rgb(14, 54, 184);
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+input[type='submit']:hover{
+    opacity: 0.8;
+}
+
+.fundo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    background-size: cover;
+}
+
+.login{
+    position: absolute;
+    width: 35%;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 35px;
+}
+
+.loginTextos{
+    width: 70%;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+.loginLogomarca{
+    margin-bottom: 20px;
+    width: 30%;
+}
+
+.cadastro{
+    width: 60%;
+    margin: 15px 20%;
+}
+
+.topFaixa{
+    height: 50px;
+    background:greenyellow;
+    color: rgb(14, 54, 184);
+    line-height: 50px;
+}
+
+.resultadoForm{
+    margin-top: 20px;
+    font-weight: bold;
+    color: red;
+    line-height: 20px;
+}
+
+/*
+ * TAMANHO EXTRA SMALL
+ */
+@media screen and (max-width: 480px){
+    input[type='submit']{
+        width: 30%;
+    }
+    .fundo{
+        background: black;
+    }
+    .login{
+        width: 35%;
+    }
+    
+    .loginTextos{
+        width: 100%;
+        margin-top: 10px;
+        text-align: left;
+    }
+}
+
+/*
+ * TAMANHO SMALL
+ */
+@media screen and (min-width: 481px) and (max-width: 768px){
+    input[type='submit']{
+        width: 30%;
+    }
+    .fundo{
+        background: black;
+    }
+    .login{
+        width: 35%;
+    }
+    
+    .loginTextos{
+        width: 100%;
+        margin-top: 10px;
+        text-align: left;
+    }
+}
+
+/*
+ * TAMANHO MEDIUM
+ */
+@media screen and (min-width: 769px) and (max-width: 1199px){
+    input[type='submit']{
+        width: 30%;
+    }
+    .fundo{
+        background: black;
+    }
+    .login{
+        width: 35%;
+    }
+    
+    .loginTextos{
+        width: 100%;
+        margin-top: 10px;
+        text-align: left;
+    }
+}
+
+/*
+ * TAMANHO LARGE
+ */
+@media screen and (min-width: 1200px){
+    input[type='submit']{
+        width: 30%;
+    }
+    .fundo{
+        background: black;
+    }
+    .login{
+        width: 35%;
+    }
+    
+    .loginTextos{
+        width: 100%;
+        margin-top: 10px;
+        text-align: left;
+    }
+}
